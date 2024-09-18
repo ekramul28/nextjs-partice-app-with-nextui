@@ -16,7 +16,7 @@ import NextLink from "next/link";
 import clsx from "clsx";
 
 import { siteConfig } from "@/src/config/site";
-import { ThemeSwitch } from "@/components/theme-switch";
+import { ThemeSwitch } from "@/src/components/theme-switch";
 import {
   TwitterIcon,
   GithubIcon,
@@ -24,7 +24,7 @@ import {
   HeartFilledIcon,
   SearchIcon,
   Logo,
-} from "@/components/icons";
+} from "@/src/components/icons";
 
 export const Navbar = () => {
   const searchInput = (
